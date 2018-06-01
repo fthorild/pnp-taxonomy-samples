@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "taxonomy-sample-modern-client-side-solution",
+    "id": "a69ca3df-ed72-4323-8a68-59517eac4656",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/taxonomy-sample-modern.sppkg"
+  }
+}
