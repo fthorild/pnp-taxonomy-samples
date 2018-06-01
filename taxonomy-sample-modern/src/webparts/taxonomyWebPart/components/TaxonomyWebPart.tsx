@@ -4,6 +4,7 @@ import { ITaxonomyWebPartProps } from './ITaxonomyWebPartProps';
 import { escape } from '@microsoft/sp-lodash-subset';
 
 
+
 export default class TaxonomyWebPart extends React.Component<ITaxonomyWebPartProps, {}> {
   public render(): React.ReactElement<ITaxonomyWebPartProps> {
     return (
