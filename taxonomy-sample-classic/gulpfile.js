@@ -2,12 +2,12 @@ var gulp = require("gulp");
 var spsave = require("gulp-spsave");
 
 var coreOptions = {
-    siteUrl: 'https://<your tenant>.sharepoint.com/sites/<your site>/'
+    siteUrl: 'https://acmebiz.sharepoint.com/sites/acdc/bp/'
 };
 
 var creds = {
-   username: 'mail@tenant.onmicrosoft.com',
-   password: '<your password>'
+   username: 'fredrik.thorild@acmebiz.onmicrosoft.com',
+   password: 'Sogeti00'
 };
 gulp.task("save-to-site", function () {
     return gulp.src("./dist/*")
